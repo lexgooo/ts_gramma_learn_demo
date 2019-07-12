@@ -1,0 +1,23 @@
+{
+  "name": "ts_gramma_learn_demo",
+  "version": "1.0.0",
+  "description": "学习 http://jspang.com/posts/2018/06/27/typesript.html 站点的代码 demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lexgooo/ts_gramma_learn_demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lexgooo/ts_gramma_learn_demo/issues"
+  },
+  "homepage": "https://github.com/lexgooo/ts_gramma_learn_demo#readme",
+  "devDependencies": {
+    "@types/node": "^12.6.2"
+  }
+}
