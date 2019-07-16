@@ -36,6 +36,6 @@ function zhengxing4() {
         console.log("\u4F60\u73B0\u5728\u5DF2\u7ECF\u6574\u5F62\u6210\u4E86" + yangzi04b + "\u7684\u6837\u5B50\uFF01");
     }
     console.log("\u4F60\u73B0\u5728\u5DF2\u7ECF\u6574\u5F62\u6210\u4E86" + yangzi04a + "\u7684\u6837\u5B50\uFF01");
-    console.log("\u4F60\u73B0\u5728\u5DF2\u7ECF\u6574\u5F62\u6210\u4E86" + yangzi04b + "\u7684\u6837\u5B50\uFF01");
+    // console.log(`你现在已经整形成了${yangzi04b}的样子！`)
 }
 zhengxing4();
