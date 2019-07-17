@@ -15,10 +15,10 @@ var XiaoJiejie2 = /** @class */ (function () {
 }());
 var jiejie2 = new XiaoJiejie2('女', '山口百慧', 23);
 console.log(jiejie2.sex);
-console.log(jiejie2.name); // 可以执行但不合规，不能在 ts 语法中出现这种访问
-console.log(jiejie2.age); // 可以执行但不合规，不能在 ts 语法中出现这种访问
+// console.log(jiejie2.name) // 可以执行但不合规，不能在 ts 语法中出现这种访问
+// console.log(jiejie2.age) // 可以执行但不合规，不能在 ts 语法中出现这种访问
 jiejie2.sayHello();
-jiejie2.sayLove(); // 可以执行但不合规，不能在 ts 语法中出现这种访问
+// jiejie2.sayLove() // 可以执行但不合规，不能在 ts 语法中出现这种访问
 var Man = /** @class */ (function () {
     function Man() {
         this.sex = '男';
@@ -28,5 +28,5 @@ var Man = /** @class */ (function () {
 var man = new Man();
 console.log(man);
 console.log(man.sex);
-man.sex = '女';
-console.log(man.sex);
+// man.sex = '女' // 可以执行成功但不合规，不能在 ts 语法中出现这种访问
+// console.log(man.sex)
